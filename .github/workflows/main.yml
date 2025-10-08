@@ -5,8 +5,9 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'Dockerfile'
-      - 'init.sh'
+      - 'index.js'
+      - 'start.sh'
+      - 'package.json'
       
   pull_request:
     branches: [ main ]
